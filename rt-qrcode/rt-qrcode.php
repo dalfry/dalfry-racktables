@@ -1,9 +1,14 @@
 <?php
 
+/*
+QR code printer plugin for Racktables
+Dalfry (aka VaibhaV Sharma <vaibhav@vaibhavsharma.com> )
+*/
+
 //QR Code Tab
 $tabhandler['object']['QRCode'] = 'printQRCode';
 $tab['object']['QRCode'] = 'QR Code';
-$trigger['object']['QRCode'] = 'checkifserver';
+$trigger['object']['QRCode'] = 'checkif-iamneeded';
 
 // Racktables Installation Base URI
 //$rt-baseuri = "/racktables";
@@ -21,7 +26,7 @@ function printQRCode()
 	echo '<img src="plugins/rt-qrcode/rt-printqrcode.php?text='.$text.'" alt="abcd">';
 }
 
-function checkifserver()
+function checkif-iamneeded()
 {
         assertUIntArg ('object_id', __FUNCTION__);
         $object = spotEntity ('object', $_REQUEST['object_id']);
