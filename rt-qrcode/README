@@ -3,29 +3,33 @@ Dalfry (aka VaibhaV Sharma <vaibhav@vaibhavsharma.com> )
 
 Description
 ===========
-- The code requires (and includes) PHP QR Code library from here -
+- Written and tested with Racktables version 0.20.4
+
+- This plugin requires (and includes) PHP QR Code library from here -
 http://phpqrcode.sourceforge.net/
 
-- The plugin prints a QR code for enabled object types in a separate tab
+- The plugin prints a QR code image in a separate tab
 
-- The QR code currently only shows up for servers and contains the serial number in the code
+- The QR code currently only shows up for servers and contains the serial number
 
 
 INSTALLATION
 ============
 - Copy rt-qrcode.php in the plugins directory
 - Copy rt-qrcode directory in the plugins directory
+- Navigate to a an object (Server) and click on "QR Code" tab
 
 FUTURE PLANS
 ============
+- Add more object attributes in the QR code
+- Include (in QR Code) a one-click URL to the object
 - Ability to customize QR code data without changing php code
 - Ability to dynamically specify QR code size (without changing pho code)
-- Include (in QR Code) a one-click URL to the object
+
 
 WISHFUL THINKING
 ================
 - Use this plugin + Racktables API to enable a phone app that can scan QR codes to lookup objects
-
 
 =========
 CHANGELOG
