@@ -10,14 +10,14 @@ http://phpqrcode.sourceforge.net/
 
 - The plugin prints a QR code image in a separate tab
 
-- The QR code currently only shows up for servers and contains the serial number
+- The QR code currently contains the serial number and only shows up for servers
 
 
 INSTALLATION
 ============
-- Copy rt-qrcode.php in the plugins directory
-- Copy rt-qrcode directory in the plugins directory
-- Navigate to a an object (Server) and click on "QR Code" tab
+- Copy rt-qrcode.php to the plugins directory
+- Copy rt-qrcode directory to the plugins directory
+- Navigate to an object (Server) and click on "QR Code" tab
 
 FUTURE PLANS
 ============
