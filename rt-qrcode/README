@@ -1,0 +1,8 @@
+This is the Racktables QR code generator plugin.
+When installed, this will print a QR code for enabled object types in a separate tab.
+
+This is a work in progress. Feedback welcome.
+
+--
+Dalfry (aka VaibhaV Sharma <vaibhav@vaibhavsharma.com>)
+
