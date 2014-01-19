@@ -1,7 +1,41 @@
-This is the Racktables QR code generator plugin.
-When installed, this will print a QR code for enabled object types in a separate tab.
+QR code printer plugin for Racktables
+Dalfry (aka VaibhaV Sharma <vaibhav@vaibhavsharma.com> )
 
-This is a work in progress. Feedback welcome.
+Description
+===========
+- The code requires (and includes) PHP QR Code library from here -
+http://phpqrcode.sourceforge.net/
+
+- The plugin prints a QR code for enabled object types in a separate tab
+
+- The QR code currently only shows up for servers and contains the serial number in the code
+
+
+INSTALLATION
+============
+- Copy rt-qrcode.php in the plugins directory
+- Copy rt-qrcode directory in the plugins directory
+
+FUTURE PLANS
+============
+- Ability to customize QR code data without changing php code
+- Ability to dynamically specify QR code size (without changing pho code)
+- Include (in QR Code) a one-click URL to the object
+
+WISHFUL THINKING
+================
+- Use this plugin + Racktables API to enable a phone app that can scan QR codes to lookup objects
+
+
+=========
+CHANGELOG
+=========
+- 1/18/14 -
+-- Initial code to print QR code that contains Serial number
+
+
+**
+This is work in progress. Feedback welcome.
 
 --
 Dalfry (aka VaibhaV Sharma <vaibhav@vaibhavsharma.com>)

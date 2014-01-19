@@ -1,20 +1,5 @@
 <?php
 
-/*
-
-QR code printer for Racktables
-Dalfry (aka VaibhaV Sharma <vaibhav@vaibhavsharma.com> )
-
-INSTALL Instructions
-- Copy rt-qrcode.php in the plugins directory
-- Copy rt-qrcode directory in the plugins directory
-
-- 1/18/14 -
--- Initial code to print QR code that contains Serial number
-
-*/
-
-
 //QR Code Tab
 $tabhandler['object']['QRCode'] = 'printQRCode';
 $tab['object']['QRCode'] = 'QR Code';
