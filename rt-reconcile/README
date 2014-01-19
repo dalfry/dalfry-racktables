@@ -1,0 +1,13 @@
+RT-Resoncile - Racktables Reconcile Plugin
+============
+Racktables plugin to reconcile racktables asset data with an uploaded CSV file.
+
+Planned Features
+================
+* Receive uploaded CSV file
+
+* Map CSV fields to Racktables fields
+
+* Search Racktables database using key fields (Asset Tag / Serial Number / Hostname) and highlight records that do not match
+
+Dalfry (aka VaibhaV Sharma <vaibhav@vaibhavsharma.com>)
